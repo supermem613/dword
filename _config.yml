@@ -1,3 +1,8 @@
-remote_theme: poole/hyde
 title: My DWORD is My Bond
 description: Rants, thoughts, all free of charge!
+remote_theme: b2a3e8/jekyll-theme-console
+style: dark
+# header_pages: 
+#   - about.md
+#   - contact.md
+# footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
