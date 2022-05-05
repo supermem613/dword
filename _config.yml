@@ -1,6 +1,6 @@
 title: My DWORD is My Bond
 description: Rants, thoughts, all free of charge!
-remote_theme: b2a3e8/jekyll-theme-console
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 style: dark
 # header_pages: 
 #   - about.md
