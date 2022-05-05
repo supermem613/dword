@@ -1,10 +1,22 @@
 title: My DWORD is My Bond
 description: Rants, thoughts, all free of charge!
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-style: dark
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
 - jekyll-include-cache
-# header_pages: 
-#   - about.md
-#   - contact.md
-# footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
+twitter:
+  username: &twitter "supermem613"
+social:
+  links:
+    - "https://twitter.com/supermem613"
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/supermem613"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/supermem613"
+timezone: America/New_York
+
