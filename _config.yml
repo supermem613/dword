@@ -2,6 +2,8 @@ title: My DWORD is My Bond
 description: Rants, thoughts, all free of charge!
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 style: dark
+plugins:
+- jekyll-include-cache
 # header_pages: 
 #   - about.md
 #   - contact.md
