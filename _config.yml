@@ -1,9 +1,18 @@
-title: My DWORD is My Bond
-description: Rants, thoughts, all free of charge!
+locale: "en-US"
+title: "My DWORD is my bond"
+title_separator: "-"
+subtitle: "these are my opinions, not my employer's"
+name: &name "Marcus Markiewicz" # &name is a YAML anchor which can be *referenced later
+description: &description "A personal blog"
+url: https://www.mydwordismybond.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+repository : "supermem613/dword"
+
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 plugins:
-- jekyll-include-cache
+  - jekyll-include-cache
+  - jekyll-feed
 twitter:
   username: &twitter "supermem613"
 social:
@@ -18,5 +27,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/supermem613"
+      
+permalink: /:categories/:title/
 timezone: America/New_York
 
+atom_feed:
+  path: # blank (default) uses feed.xml
